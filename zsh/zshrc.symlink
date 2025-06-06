@@ -1,1 +1,6 @@
 bindkey -v
+
+# Source aliases
+if [ -f ~/.dotfiles/.aliases ]; then
+    source ~/.dotfiles/.aliases
+fi
